@@ -1,0 +1,35 @@
+.header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+    h1 {
+        font-size: 30px;
+        margin: 0px 0px;
+    }
+
+
+    .links {
+        display: flex;
+        align-items: flex-end;
+
+
+        a {
+            text-decoration: none;
+            margin: auto 10px;
+            font-size: 15px;
+            color: white;
+        }
+
+        :hover {
+            font-size: 17px;
+        }
+    }
+
+   
+
+
+}
